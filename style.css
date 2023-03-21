@@ -1,0 +1,120 @@
+body {
+  border: rgb(75, 75, 1) 5px solid;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+h1 {
+  margin-top: 0px;
+  border-top: 40px solid;
+  background-color: beige;
+  color: olive;
+  font-weight: bold;
+  font-size: 64px;
+  font-family: Helvetica;
+  text-align: center;
+  border-bottom: 3px olive solid;
+}
+
+.background-header {
+  background-color: rgb(255, 200, 180);
+  border-top: rgb(255, 162, 129) solid 3px;
+  color: olive;
+}
+h3 {
+  background-color: rgba(255, 255, 216, 50%);
+  padding: 30px;
+  text-align: center;
+  color: rgb(75, 75, 1);
+  text-transform: uppercase;
+  border-top: olive solid 3px;
+  border-bottom: olive solid 3px;
+}
+
+.post-img {
+  border-radius: 50rem;
+  border: 0.5rem double olive;
+  background-image: ;
+}
+
+.name {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-bottom: olive 3px dotted;
+}
+
+.english-name {
+  border-bottom: 3px olive dotted;
+  padding-bottom: 10px;
+}
+ul {
+  list-style: none;
+  padding-left: 0px;
+  border-bottom: 3px olive dotted;
+  margin-top: 1px;
+  margin-bottom: 6px;
+  background-image: url(./);
+}
+
+.container {
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: olive;
+}
+
+a:hover {
+  color: rgb(90, 81, 38);
+  text-decoration: underline rgb(90, 81, 38);
+}
+
+a:active {
+  background-color: rgb(90, 81, 38);
+  font-style: italic;
+}
+
+ul li {
+  font-weight: bold;
+}
+
+h4 {
+  font-family: helvetica;
+  font-weight: bold;
+  text-align: enter;
+  font-size: 30px;
+  color: olive;
+}
+.big-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.img-container {
+  border: 5px beige dotted;
+}
+footer {
+  background-color: beige;
+  border-bottom: olive 5px solid;
+  border-top: olive 5px solid;
+  text-align: center;
+  font-weight: bold;
+}
